@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="form">
+        <form action="">
+            <div class="f_name">
+                <label for="f_name">First Name</label>
+                <input type="text" id="f_name" placeholder="Enter First Name" autocomplete="on" name="f_name" required="required"><br>
+            </div>
+            <div class="l_name">
+                <label for="l_name">Last Name</label>
+            <input type="text" id="l_name" placeholder="Enter Last Name" autocomplete="off" name="l_name" required="required"><br>
+            </div>
+
+            <label for="s_name">Screen Name</label>
+            <input type="text" id="s_name" placeholder="Enter Screen Name" autocomplete="off" name="s_name" required="required"><br>
+            <label for="date">Date of Birth</label>
+            <input type="date" id="date" name="date" required="required"><br>
+            <div class="gender">
+                <label for="gender">Gender</label>
+                <input type="radio" id="gender" name="male" value="Male"> Male
+                <input type="radio" id="gender" name="male" value="female"> Female<br>
+            </div>
+            <label for="country">Country</label>
+            <select name="" id="country">
+                <option value="">Select your Country</option>
+                <option value="usa">usa</option>
+                <option value="England">England</option>
+                <option value="Germany">Germany</option>
+                <option value="Bangladesh">Bangladesh</option>
+                <option value="India">India</option>
+                <option value="Pakistan">Pakistan</option>
+                <option value="Sri Lanka">Sri Lanka</option>
+            </select><br>
+            <label for="email">Email</label>
+            <input type="email" id="email" placeholder="Enter E-mail" autocomplete="off" name="email" required="required"><br>
+            <label for="phone">Phone</label>
+            <input type="phone" id="phone" placeholder="Enter Phone Number" autocomplete="off" name="phone" required="required"><br>
+            <label for="password">Password</label>
+            <input type="password" id="password" placeholder="Enter Password" autocomplete="off" name="password" required="required"><br>
+            <label for="password">Confirm Password</label>
+            <input type="password" id="password" placeholder="Confirm Password" autocomplete="off" name="password" required="required"><br>
+            <div class="checkbox">
+                <input type="checkbox" id="checkbox" name="checkbox" required="required">
+                <label for="checkbox" class="agree">I agree to the Terms of Use</label><br>
+            </div>
+            <div class="btn">
+                <input type="submit" value="Submit">
+                <input type="reset" value="Cancel">
+            </div>
+        </form>
+    </div>
+    
+</body>
+</html>

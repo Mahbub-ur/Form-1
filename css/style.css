@@ -1,0 +1,83 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-image: linear-gradient(#F869D5, #5650DE);
+    height: 100vh;
+    background-repeat: no-repeat;
+}
+.form{
+    display: flex;
+    width: 650px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 10px auto 0;
+    padding: 15px 15px;
+    border: 0px solid #5650DE;
+    border-radius: 5px;
+    box-shadow: 0px 0px 90px #5650de;
+}
+form{
+    height: 468px;
+}
+label{
+    width: 180px;
+    display: inline-block;
+    text-align: end;
+    padding-right: 20px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    font-family: cursive;
+}
+input,select{
+    width: 65%;
+    padding: 5px 10px;
+    border: 1px solid #333333;
+    border-radius: 5px;
+    font-size: 16px;
+    box-shadow: inset 0px 0px 3px 0px rgb(160, 156, 156);
+}
+input[type="checkbox"]{
+    box-shadow: none;
+}
+input[type="radio"]{
+    width: 3%;
+}
+.agree{
+    margin-left: -265px;
+    width: 50%;
+    font-size: 17px;
+}
+.checkbox{
+    margin-top: 8px;
+}
+.btn{
+    width: 100%;
+    display: flex;
+    justify-content: end;
+}
+input[type="button"]{
+    width: 15%;
+    font-size: 17px;
+    font-weight: 600;
+    font-family: cursive;
+    margin-left: 10px;
+}
+input[type="submit"],
+input[type="reset"]{
+    width: 15%;
+    font-size: 17px;
+    font-weight: 600;
+    font-family: cursive;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.gender{
+    font-size: 18px;
+    font-family: cursive;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+}
